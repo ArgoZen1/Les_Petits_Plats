@@ -1,3 +1,6 @@
+// /*
+// ** class pour créer la section des recettes
+// */
 class CreateSection {
     constructor(recipes) {
         this.recipes = recipes;

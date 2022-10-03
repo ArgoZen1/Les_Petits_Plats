@@ -1,3 +1,6 @@
+// /*
+// ** fonction pour pouvoir faire une recherche avec ou sans accents
+// */
 String.prototype.removeAccents = function () {
     return this
         .replace(/[áàãâä]/gi, "a")

@@ -64,7 +64,6 @@ function test(arrayTag, allArticle, allPingrdts, img, tagItem, spanContent) {
                     test(arrayTag, allArticle, allPingrdts, img, tagItem, spanContent)
                     break
                 }
-
             }
         })
     }

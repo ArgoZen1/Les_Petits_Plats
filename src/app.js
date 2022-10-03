@@ -27,8 +27,6 @@ class App {
 
 
         });
-        // const TemplateLiUst = new CreateLiBoxUst()
-        // this.classUlUst.appendChild(TemplateLiUst.createContainerUstLi());
     }
 }
 const app = new App();

@@ -3,6 +3,10 @@ let classUlIgrdts = document.querySelector('.ingredients-content') // selection 
 let classUlappl = document.querySelector('.appliances-content')
 let classUlUst = document.querySelector('.ustensils-content')
 let arrayIngredients = []
+
+// /*
+// ** Class pour créer le container des li de la box ingredients
+// */
 class CreateLiBoxIng {
     constructor(recipes) {
         this.recipes = recipes;
@@ -14,7 +18,6 @@ class CreateLiBoxIng {
                 arrayIngredients.push(recipeData.ingredient)
                 let createLiIgrdts = document.createElement('li')
                 createLiIgrdts.classList.add('ingredients-li');
-                classUlIgrdts.appendChild(createLiIgrdts)
                 createLiIgrdts.textContent = recipeData.ingredient
 
                 return createLiIgrdts
@@ -22,6 +25,9 @@ class CreateLiBoxIng {
         }
     }
 }
+// /*
+// ** Class pour créer le container des li de la box Appareils
+// */
 class CreateLiBoxAppl {
     constructor(recipes) {
         this.recipes = recipes;
@@ -30,26 +36,26 @@ class CreateLiBoxAppl {
 
         let createLiAppl = document.createElement('li')
         createLiAppl.classList.add('appliance-li');
-        // classUlappl.appendChild(createLiAppl)
         createLiAppl.textContent = this.recipes.appliance
         return createLiAppl
 
     }
 }
-
+// /*
+// ** fonction pour créer le container des li de la box Ustensiles
+// */
 function createContainerUstLi() {
     for (let Ustensiles of AllustensilsArray) {
         let createLiUstLi = document.createElement('li')
         createLiUstLi.classList.add('ustensils-li');
         classUlUst.appendChild(createLiUstLi)
         createLiUstLi.textContent = Ustensiles
-
     }
 }
 createContainerUstLi()
 
 // /*
-// ** fonction pour pouvoir ouvrir et fermer l'input au bouton et sur l'input
+// ** fonctions pour pouvoir ouvrir et fermer l'input au bouton et sur l'input 
 // */
 function OpenCloseInput() {
 
