@@ -204,12 +204,14 @@ li:hover {
     border: solid 1px rgb(199, 188, 188);
     border-radius: 5px 5px 0px 0px;
     padding: 1rem;
+    background-color: gray;
 }
 .container_img img {
     width: 100%;
     width: 15rem;
     object-fit: cover;
     overflow: hidden;
+    border-radius: 50%;
 }
 .container_all_text {
     background-color: #e7e7e7;

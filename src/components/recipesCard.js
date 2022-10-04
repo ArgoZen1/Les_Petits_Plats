@@ -15,7 +15,7 @@ class CreateSection {
         const newImg = document.createElement('img');
         Object.assign(newImg, {
             className: "img_recipe",
-            src: "./asset/cuisine.webp",
+            src: "./asset/ingrédients.webp",
             alt: "Image de la recette",
             ariaLabel: "Image de la recette"
         });
