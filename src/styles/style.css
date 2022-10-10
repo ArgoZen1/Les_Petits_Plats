@@ -164,7 +164,17 @@ li:hover {
 .list-content {
     height: 397px;
     width: 100%;
-    width: 667px;
+    width: 390px;
+}
+.appliances-content {
+    height: 397px;
+    width: 100%;
+    width: 240px;
+}
+.ustensils-content {
+    height: 397px;
+    width: 100%;
+    width: 300px;
 }
 .ingredients-input:focus {
     outline: none !important;
@@ -335,7 +345,7 @@ span {
     padding-right: 1rem;
     text-align: center;
 }
-@media (max-width: 982px) {
+@media (max-width: 1180px) {
     .select__sorting {
         display: flex;
         flex-direction: column;

@@ -30,6 +30,7 @@ searchInput.addEventListener('keyup', () => {
     // let iterations = 500;
     // console.time('Function #2 boucle foreach, 500 iterations');
     // for (let i = 0; i < iterations; i++) {
+
     const SearchF = new SearchForm()
     SearchF.search()
     // }

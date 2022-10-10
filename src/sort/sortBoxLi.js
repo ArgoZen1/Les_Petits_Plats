@@ -1,3 +1,4 @@
+const searchInput2 = document.getElementById('inputSort');
 // /*
 // ** fonction pour trier l'affichage des li en fonction des lettres tapées dans l'input
 // */
