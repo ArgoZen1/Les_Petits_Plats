@@ -10,7 +10,7 @@ http://s910153701.onlinehome.fr/
 
 - 👨‍💻 Tous mes projets sont disponibles sur [https://ares-romain.com/](https://ares-romain.com/) (bientôt mise à jour du portfolio avec de nombreuses améliorations
 
-- 💬 Competences **POO, Algorythmen analyse de problemes informatique**
+- 💬 Competences **POO, Algorythme analyse de problemes informatique**
 
 - 📫 Comment me joindre **argolys@outlook.com**
 
