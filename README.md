@@ -1,7 +1,7 @@
 # Les_Petits_Plats
 
 <h1 align="center">Les petits plats</h1>
-<h3 align="center">Développer un algorithme pour résoudre un problèmeAnalyser un problème informatique</h3>
+<h3 align="center">Développer un algorithme pour résoudre un problème et analyser un problème informatique</h3>
 
 
 - 🌱 j'ai appris **les algorithme de recherche en JS vanilla  
