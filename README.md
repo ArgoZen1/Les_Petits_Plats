@@ -1,6 +1,8 @@
 # Les_Petits_Plats
 
-<h1 align="center">Les petits plats</h1>
+Parce qu'un site web en visuel vaut plus des mots, voici un lien vers le projet (attention la maquette a été réalisé sur figma et elle n'est donc pas de moi, j'aurais choisis un meilleur design. 
+http://s910153701.onlinehome.fr/
+
 <h3 align="center">Développer un algorithme pour résoudre un problème et analyser un problème informatique</h3>
 
 
